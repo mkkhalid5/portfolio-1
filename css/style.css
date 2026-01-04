@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Arial',sans-serif;
+    background-color: #0f0b23;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem 1rem 10rem;
+    background-color: #1A0B2E;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+}
+.menu li{
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 2rem;
+    gap: 3rem;
+}
+.hero-left{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(128,0,255,0.6);
+}
+.hero-left .profile{
+   
+    width: 150px;
+    height: 150px;
+}
+.hero-right .greeting{
+    font-size: 1rem;
+    color: #aaa;
+}
+.hero-right .name{
+    color: #8c3eff;
+}
+.hero-right .tagline{
+    font-size: 2rem;
+    line-height: 1.3;
+}
+.hero-right .highlight{
+    color: #8c3eff;
+    border-bottom: 2px solid #8c3eff;
+}
+.hero-right .role{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.hero-right .description{
+    color: #ccc;
+    max-width: 500px;
+}
